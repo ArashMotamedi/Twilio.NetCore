@@ -2,7 +2,13 @@
 .NET Standard (Core) port of Twilio Rest Client library
 
 ## Install
-From Nuget: **https://www.nuget.org/packages/Twilio.NetCore/1.0.0**
+For .NetCore 2 Projects:
+Nuget: **https://www.nuget.org/packages/Twilio.NetCore/2.0.0**
+PM: **Install-Package Twilio.NetCore -Version 2.0.0**
+
+For .NetCore 1 projects:
+Nuget: **https://www.nuget.org/packages/Twilio.NetCore/1.0.0**
+PM: **Install-Package Twilio.NetCore -Version 1.0.0**
 
 ## About
 This is an unofficial port of the [twilio-csharp](https://github.com/twilio/twilio-csharp) library for .Net Standard (Core). The original library is well organized and its sole dependency is on RestSharp. I replaced RestSharp with [RestSharp.NetCore](https://www.nuget.org/packages/RestSharp.NetCore/) and made a couple of small modifications on the `Core.cs` file to call RestSharp.NetCore's `ExecuteAsync` methods synchronously. 
