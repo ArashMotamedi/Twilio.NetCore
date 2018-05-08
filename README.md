@@ -8,7 +8,7 @@ Nuget: **https://www.nuget.org/packages/Twilio.NetCore/2.0.0**
 PM: **Install-Package Twilio.NetCore -Version 2.0.0**
 
 
-### For .NetCore 1 projects
+### For .NetCore 1 Projects
 Nuget: **https://www.nuget.org/packages/Twilio.NetCore/1.0.0**
 
 PM: **Install-Package Twilio.NetCore -Version 1.0.0**
